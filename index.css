@@ -945,8 +945,8 @@ border-radius:15px ;
     display:grid;
 }
 .section-1 .image-2 img{
-    height:240px;
-    width: 240px;
+    height:100%;
+    width: 100%;
 }
 
 .note {
@@ -979,40 +979,48 @@ border-radius:15px ;
     height: fit-content;
 }
 
+.inside{
+    display: block;
+}
+
 .music video{
         height:100%;
         width:100%;
         position: relative;
         left: -1px;
-        top: -30px;
+        top: -50px;
         border-radius:0px;
     }
- .inside{
-     display:block;
-     height: fit-content;
- }   
+   
 .inside img{
-        height:70%;
-        width:70%;
+        height:100%;
+        width:100%;
         position: relative;  
-        top:-40px;
+        top:-70px;
         left:60px;
+        bottom:20px;
     } 
+  .inside-1{
+     display:block;
+     justify-content: center;
+     align-items: center;
+  }  
  .inside-1 h2{
      font-size:3vh;
      position: relative;
-     right:70px;
-     top:20px;
+     top:80px;
+     left:-100px;
  }   
  .inside-1 p{
     position: relative;
-    right:72px;
-    font-size:2.5vh; 
+    top: 80px;
+    right:110px;
+    font-size:3vh; 
  } 
  .inside-1 button{
-    margin-top: 30px;
+    margin-top:120px;
     position: relative;
-    left:-80px;
+    left:-120px;
     bottom:10px;
 }
 
@@ -1028,14 +1036,24 @@ border-radius:15px ;
     width:90%;
     position: relative;
     top:40px;
-    left:20px;  
+    left:1rem;  
 }
 
 .box{
     position: relative;
-    left:15px;
+    left:1rem;
     padding-top:20px;
     padding-bottom:10px;
+}
+.right-side h1{
+    font-weight: bold;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.right-side p{
+    padding-top: 10px;
+    text-align: center;
 }
 
 .content{
