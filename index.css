@@ -801,7 +801,140 @@ border-radius:15px ;
   }
 }
 
-@media(max-width:639px){
+@media (min-width:499px) and (max-width:639px){
+    body{
+        background-color:orangered;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    
+    .social {
+        display:flex;
+        padding-left:3px;
+        padding-right:3px;
+    }
+    
+    .social a .fa{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%; 
+        padding:5px; 
+    }  
+    .nav span{
+        position: relative;
+        left:18px;   
+    }
+    .section-1{
+        margin-top: 50px;
+        display:block;
+        height: fit-content;
+    }
+    .section-1 .image-2 img{
+        height:270px;
+    }
+    
+    .section-1 .btn-2{
+        padding:20px 0px 10px 100px;
+    }
+    
+    .note{
+        position: relative;
+        left:11%;
+    }
+    .section-1 .note h2 {
+        padding-top: 20px;;
+        font-size:35px;
+        position: relative;
+        right:16%;
+    }
+    
+    .section-1 .note p{
+        padding-top: 30px;
+        padding-left:1px;
+        font-size:3vh;
+    }
+    .grid-1{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;  
+        grid-template-columns: none;
+    }
+    .music video{
+        height:240px;
+        width: 360px;
+        position: relative;
+        left:14%;
+        top:-30px; 
+    }
+.inside .inside-1{
+        margin-top: 50px;
+    } 
+
+.inside img{
+        position: relative; 
+        top:120px;
+    }
+  
+.inside-1 h2{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.inside-1 p{
+    font-size: 3vh; 
+}
+.inside-1 button{
+    position: relative;
+    left: 30px;
+    margin-bottom: 10px;
+ }
+ .music{ 
+    height:fit-content;
+    margin-top:80px;
+} 
+
+
+.foot  .log{
+    display:block;
+    height:fit-content;
+    border-radius: none;
+    width:460px;
+    position:relative;
+    top: 50px;
+    left:10px; 
+}
+.right-side h1{
+    font-weight: bold;
+    font-size: 5vh;
+    text-align: center;
+}
+.right-side p{
+    padding-top: 10px;
+    text-align: center;
+}
+.log .right-side{
+    padding-top:40px;
+}
+
+.box{
+    padding-top:50px;
+    position: relative;
+    left:25%;
+}
+.box button{
+    margin-top: 15px;
+    padding: 10px 30px 10px 30px;
+    position: relative;
+    left:25px;
+    border: none;
+    border-radius:15px ;
+    }
+}
+
+@media (max-width:499px) {
+    body{
+        background-color:orangered;
+    }
     html{
         overflow-x: hidden;
     }
