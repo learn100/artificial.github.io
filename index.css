@@ -330,8 +330,8 @@ html{
     width: 80px;
     border: 2px solid gray;
     border-radius: 50%;
-   position: relative;
-   top: 10px;
+    position: relative;
+    top: 10px;
 }
 
 
@@ -914,6 +914,175 @@ border-radius:15px ;
     position: relative;
     left:-28%;
     }
-
 }  
+
+@media (min-width:240px) and (max-width:499px){
+    html{
+        overflow-x:hidden;
+    }
+
+.section-2 .head-1{
+        font-size:3vh;
+    }
+.grid-1{
+        display: grid;
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: none;
+    }
+  .grid-1 h3{
+      font-size:2vh;
+  }  
+
+  .about  button{
+    margin-top:50px;
+    padding: 10px 22px 10px 22px;
+    border:none;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.section-1{
+    display:grid;
+}
+.section-1 .image-2 img{
+    height:240px;
+    width: 240px;
+}
+
+.note {
+    position: relative;
+    left:5%;
+}
+
+.section-1 .note h2 {
+      padding-top:20px;
+      font-size:4vh;
+      text-align: center;
+}
+
+.section-1 .note p{
+    padding-top: 30px;
+    padding-right: 25px;
+    font-size:4vh;
+    text-align: center;
+}
+
+.section-1 .btn-2{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:10px;
+    position: relative;
+    right:3%;
+}
+.music{
+    display: block;
+    height: fit-content;
+}
+
+.music video{
+        height:240px;
+        width:240px;
+        position: relative;
+        left:-7px;
+        top: -80px;
+        border-radius:0px;
+    }
+.inside img{
+        height:70%;
+        width:70%;
+        position: relative;  
+        top:-60px;
+        left:60px;
+    } 
+ .inside-1 h2{
+     font-size:3vh;
+     position: relative;
+     right:70px;
+ }   
+ .inside-1 p{
+    position: relative;
+    right:72px;
+     font-size:2.5vh; 
+ } 
+ .inside-1 button{
+    margin-top: 30px;
+    position: relative;
+    left:-80px;
+    bottom:10px;
+}
+
+.foot{
+    margin-top: 50px;
+    height:480px;
+}
+
+.foot  .log{
+    display:block;
+    height:fit-content;
+    border-radius:5px;
+    width:90%;
+    position: relative;
+    top:40px;
+    left:20px;  
+}
+
+.box{
+    position: relative;
+    left:15px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+.content{
+    text-align: center;
+    padding-top:150px;
+}
+
+.content h2{
+    letter-spacing:0.2cm;
+    padding-left:2px;
+}
+
+.content h1{
+    letter-spacing:0.2cm;
+    padding-top: 20px;
+    text-align:center!important;
+}
+
+.content p{
+    letter-spacing:0.1cm;
+    color:pink;
+    text-transform:uppercase;
+    padding-top: 30px;
+}
+
+.container .btn {
+   text-align: center;
+   padding-top: 30px; 
+}
+
+.container .nav{
+    display:inline;
+    text-align: center;
+}
+
+.nav span{
+   position: relative;
+   top: 20px;
+   left:45px;
+}
+
+.menu ul li {
+    display: inline;
+    padding-left: 20px;
+    position: relative;
+    top:20px;
+}
+
+.social a .fa{
+   position: relative;
+   top:20px;
+}
+ 
+}
 
